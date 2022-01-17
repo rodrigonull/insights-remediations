@@ -11,17 +11,7 @@ objects:
   spec:
     envName: ${ENV_NAME}
     optionalDependencies:
-    - compliance
-    - compliance-ssg
-    - config-manager
-    - host-inventory
-    - patchman
-    - playbook-dispatcher
-    - rbac
-    - receptor-gateway
-    - sources-api
-    - vmaas
-    - vulnerability-engine
+    - ingress
     database:
       name: remediations
     inMemoryDb: true
